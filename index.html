@@ -1,0 +1,17 @@
+b'
+<!DOCTYPE html>\n<html lang="ru">\n
+
+<head>\n
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />\n
+    <script src="https://www.google.com/recaptcha/api.js?hl=ru&onload=onloadCallback&render=explicit" async
+        defer></script>\n
+    <script
+        type="text/javascript">\n        var widgetId; \n        onloadCallback = function () { \n            widgetId = grecaptcha.render(\'capcha\', {\n                \'sitekey\'   :   \'6Ld_PpsUAAAAAKkZjt2r0cHf4hbp0TwJTu8xTgq9\',\n                \'theme\'     :   \'light\'\n            });\n        };\n        function onSubmit() {\n\n            document.getElementById("form_capcha").submit();\n\n        }\n    </script>
+    \n
+</head>\n\n
+
+<body>\n <form id="form_capcha" action="" method="get">\n <div data-callback=\'onSubmit\' id="capcha"></div>\n </form>\n
+</body>\n
+
+</html>'
+b'
