@@ -59,4 +59,4 @@ for line in lines:
     data_dict.append(data)
 
     with open('data.json', 'w') as file:
-        json.dump(data_dict, file, indent=4, ensure_ascii=False)
+        json.dump(data_dict, file, indent=4, ensure_ascii=False)# сохраняем данные в json-файл для дальнейшей работы с ними
